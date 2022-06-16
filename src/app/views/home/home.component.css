@@ -1,16 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
-}
+
 header{
     height: 125px;
     background-color: #0C64E9;
 }
-.conteinergrid{
-   width: 1200px;
-   margin: 0 auto;
-}
+
 .cabeçalho{
     display: flex;
     justify-content: center;
@@ -83,7 +76,7 @@ header{
     opacity: 0.7;
 }
 .bannercomunica{ 
-    /* background-image: url(IMG/fundo\ banner\ comunidade.svg); */     
+    background-image: url(/assets/IMG/fundo\ banner\ comunidade.svg);   
 }
 .conteudocomunica{
     display: flex;
@@ -145,9 +138,9 @@ footer p{
     width: 30px;    
 }
 @media screen and (max-width: 1150px) {
-    .conteinergrid {
+    /*.conteinergrid {
         width: 100%;
-    }
+    }*/
     .cabeçalho{
         width: 90vw;
     }
@@ -159,10 +152,10 @@ footer p{
     }
 }
 @media screen and (max-width: 900px) {
-    .conteinergrid {
+    /*.conteinergrid {
         flex-wrap: wrap;
         height: 100%;
-    }
+    }*/
     .bannercomunica p{
         display: none;
     }
