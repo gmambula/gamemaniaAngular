@@ -1,9 +1,9 @@
-$(document).ready(function() {
-  $("#enviar").click(function(){
+// $(document).ready(function() {
+  //$("#enviar").click(function(){
 
-     var user = $("#user").val();
-     console.log(user)
-     var password = $("#password").val();
-     console.log(password)
-   })
-});
+     //var user = $("#user").val();
+     //console.log(user)
+     //var password = $("#password").val();
+     //console.log(password)
+   //})
+//});

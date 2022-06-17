@@ -1,45 +1,3 @@
-
-header{
-    height: 125px;
-    background-color: #0C64E9;
-}
-
-.cabeçalho{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.barras{
-    height: 50px;
-    width: 50px;
-}
-.barras{
-    display: none;
-}
-.menu{
-    width: 1000px;
-    display: flex;
-    justify-content: space-around;
-}
-.menu a{
-    text-decoration: none;
-    font-size: 16px;
-    font-family: KoHo;
-    text-transform: uppercase;
-    color: white;
-    font-size: bold;
-}
-.menu a:hover{
-    font-size: 21px;
-}
-#login:hover{
-    text-decoration:underline;
-}
-#drop{
-    font-family: KoHo;
-    color: black;
-}
 .bannervendas{
    background-color: #0C64E9;   
    width: 100%; 
@@ -106,41 +64,11 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-footer{
-    background-color: #042E54;
-    width: 100%;  
-    display: flex;
-    justify-content: space-between;    
-}
-footer p{
-    font-size: 16px;
-    font-family: KoHo;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;    
-}
-.rodape{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-}
-.contato{
-     margin-top: 3px;
-    justify-content: space-between;
-}
-.redesocial{
-    display: flex;
-    justify-content: space-between; 
-}
-.contato img{
-    height: 30px;
-    width: 30px;    
-}
+
 @media screen and (max-width: 1150px) {
-    /*.conteinergrid {
+    .conteinergrid {
         width: 100%;
-    }*/
+    }
     .cabeçalho{
         width: 90vw;
     }
@@ -152,10 +80,10 @@ footer p{
     }
 }
 @media screen and (max-width: 900px) {
-    /*.conteinergrid {
+    .conteinergrid {
         flex-wrap: wrap;
         height: 100%;
-    }*/
+    }
     .bannercomunica p{
         display: none;
     }

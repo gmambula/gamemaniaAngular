@@ -1,23 +1,4 @@
-<header>
-    <div class="conteinergrid cabeçalho" >
-        <a href="index.html">
-            <img src="/assets/IMG/Logo GMania.svg" alt="logo game mania">
-        </a>
-        <nav id="menu" class="menu">
-           <a href="história.html">história</a>                
-            <a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">produtos</a>
-             <dl class="dropdown-menu">
-             <dt><a id="drop" class="dropdown-item" href="#">notebook</a></dt>
-             <dt><a id="drop" class="dropdown-item" href="#">playstation</a></dt>
-             <dt><a id="drop" class="dropdown-item" href="#">pc gamer</a></dt>                 
-             </dl>                               
-           <a href="equipe.html">equipe</a>
-           <a href="contatos.html">contatos</a>
-           <a id="login" style="font-size: 21px;" routerLink="/login">login</a>
-        </nav>             
-           <a id="bars" onclick="mostrarMenu()"  href="#"><img class="barras" src="/assets/IMG/menu-hamburguer.svg" alt="menu barras"></a>                   
-    </div>
-</header>
+<app-header></app-header>
 <section class="conteinergrid bannervendas">
     <div class="conteinergrid produtos">
         <div class="boxhover">
@@ -54,28 +35,4 @@
         </div>
     </div>       
 </section>
-<footer>
-    <div class="conteinergrid rodape">
-        <div class="endereco">
-            <p>av: dos gamers - nº 3214</p>
-            <p>são paulo - sp</p>
-            <p>cnpj:00.000.00/0009-00</p>
-        </div>
-        <div>
-            <img src="/assets/IMG/Logo GMania.svg" alt="logo game mania">
-        </div>
-        <div class="contato">                
-            <p>contato</p>
-            <p>telefone: (00) 1234-1234</p>
-            <p>contato@gamemania.com.br</p>
-            <div class="redesocial">
-                <a href="#">
-                    <img src="/assets/IMG/logo telegran.svg" alt="logo telegrans">
-                </a><a href="#">
-                    <img src="/assets/IMG/logo watsapp.svg" alt="logo watsapp">
-                </a><a href="#">
-                    <img src="/assets/IMG/logo instagran.svg" alt="logo instagran">            
-                </a>
-            </div>
-        </div>
-    </div>
+<app-footer></app-footer>
